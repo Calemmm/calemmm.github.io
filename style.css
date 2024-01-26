@@ -428,6 +428,29 @@ body {
   color: var(--primaryputih);
 }
 
+/*secttentangku*/
+.tentangku div img{
+  width: 400px;
+}
+.h2d{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding-top: 7rem;
+  font-size: 2rem;
+}
+
+.ten2{
+  display: flex;
+  align-items: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  justify-content: space-between;
+  gap: 6rem;
+  margin-bottom: 8rem;
+}
+
 /*sect4*/
 .footerrr{
   background-color: var(--primarydarkbet);
