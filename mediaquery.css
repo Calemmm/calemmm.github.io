@@ -1,0 +1,103 @@
+@media (max-width: 1000px) {
+
+    .hero{
+        font-size: 50%;
+    }
+
+
+    #menu{
+      display: inline-block;
+    }
+  
+    .navbar-nav{
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      background-color: #fff;
+      width: 15rem;
+      height: 100vh;
+      transition: 0.3s;
+    }
+  
+    .navbar-nav.active{
+      right: 0;
+    }
+  
+    .navbar-nav a{
+      color: var(--bg);
+      display: block;
+      margin: 1.5rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+  
+    }
+
+    .productu{
+      font-size: 2rem;
+    }
+
+    .kami{
+      font-size: 2rem;
+    }
+
+    .row{
+      flex-wrap: wrap;
+    }
+
+   
+
+    .tersedia{
+      font-size: 2rem;
+    }
+
+    .productu{
+      padding-top: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .rp{
+      padding: 1rem;
+      font-size: 1rem;
+    }
+
+    .t{
+      font-size: 1rem;
+      text-align: center;
+      padding: 0;
+      padding-top: 1rem;
+    }
+    .latar .kaosss img{
+      width: 95%;
+    }
+
+    .a01{
+      margin: 0.5rem 7% 0rem;
+    }
+
+    .keterangan{
+      margin: 0.2rem 7% 1.4rem;
+    }
+
+
+
+    /*sect4*/
+    .logokuuu img{
+      width: 150px;
+    }
+
+    .footerrr{
+      background-color: var(--primarydarkbet);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .copyyy{
+      font-size: 0.7rem;
+    }
+  
+    
+  
+  
+  }
