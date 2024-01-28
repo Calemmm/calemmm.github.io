@@ -1,5 +1,19 @@
 @media (max-width: 1000px) {
 
+  :root {
+    --primary: rgb(229, 194, 129);
+    --bg: #010101;
+    --primaryblue: rgb(50, 143, 168);
+    --primaryputih: #fff;
+    --primaryaqua: #cbead9;
+    --primaryhijau: rgb(105, 202, 168);
+    --primaryblack: rgb(0, 0, 0);
+    --primaryabu: #dadada;
+    --primarybluedark: rgb(10, 62, 76);
+    --primarydarkbet:rgb(23, 25, 26);
+  
+  }
+
   #search{
     display: none;
   }
@@ -98,6 +112,7 @@
     }
 
     .footerrr{
+      background-color: var(--primaryblue);
      
       display: flex;
       flex-direction: column;
