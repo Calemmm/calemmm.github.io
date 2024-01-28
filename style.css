@@ -82,16 +82,13 @@ body {
   margin: 0 0.5rem;
 }
 
-.navbar-extra a:hover{
-  color: var(--primaryblue);
-}
 #menu{
   display: none;
 }
 
 .contactlogo{
   background-color: var(--primaryblue);
-  padding: 0.5rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 15px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
   font-size: 0.8rem;
@@ -102,6 +99,9 @@ body {
 
 
 /* section hero */
+.qq1 img{
+  width: 400px;
+}
 
 .hero{
   min-height: 100vh;
@@ -125,6 +125,7 @@ body {
 .hero .content{
   padding: 1.4rem 7%;
   max-width: 60rem;
+ 
 }
 
 .judul{
@@ -148,6 +149,7 @@ body {
   font-weight: 200;
 }
 
+
 .cta{
   margin: 1rem 0;
   display: inline-block;
@@ -161,9 +163,6 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
 
-.cta:hover{
-  background-color: var(--primarybluedark);
-}
 
 
 /*section2*/
@@ -196,9 +195,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
   text-align: center;
 }
-.menu1:hover{
-  background-color: var(--primarybluedark);
-}
+
 
 .menu2{
   margin: 1rem 10%;
@@ -213,9 +210,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
   text-align: center;
 }
-.menu2:hover{
-  background-color: var(--primarybluedark);
-}
+
 
 .menu3{
   text-align: center;
@@ -230,9 +225,7 @@ body {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
-.menu3:hover{
-  background-color: var(--primarybluedark);
-}
+
 
 .menu4{
   text-align: center;
@@ -247,9 +240,7 @@ body {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
-.menu4:hover{
-  background-color: var(--primarybluedark);
-}
+
 
 .menu5{
   text-align: center;
@@ -266,9 +257,6 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
 
-.menu5:hover{
-  background-color: var(--primarybluedark);
-}
 
 #ter{
   color: var(--primaryblue);
@@ -397,6 +385,7 @@ body {
 .about{
   padding: 5rem 7% 1.4rem;
   margin-bottom: 4rem;
+  background-color: var(--primaryblue);
 }
 
 .row{
@@ -409,6 +398,8 @@ body {
 .imgimg img{
   width: 300px;
 }
+
+
 
 .deskrip{
   flex: 1 1 35rem;
@@ -432,7 +423,7 @@ body {
 .kami{
   text-align: center;
   font-size: 2rem;
-  color: var(--primaryblue);
+  color: var(--primaryputih);
   margin-bottom: 2rem;
 }
 
@@ -445,17 +436,13 @@ body {
   display: inline-block;
   font-size: 1rem;
   font-weight: 500;
-  color: #ffffff;
-  background-color: var(--primaryblue);
+  color: var(--primaryblue);
+  background-color: var(--primaryputih);
   border-radius: 1rem;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
   padding: 1rem 2rem;
 }
 
-.kk:hover{
-  background-color: var(--primarybluedark);
-}
 
 #tentang{
   color: var(--primaryputih);
@@ -484,9 +471,21 @@ body {
   margin-bottom: 8rem;
 }
 
+.bb{
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primaryputih);
+  background-color: var(--primaryblue);
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+}
+
 /*sect4*/
 .footerrr{
-  background-color: var(--primarydarkbet);
+  background-color: var(--primaryblue);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -511,6 +510,14 @@ body {
 .sosialku a{
   color: var(--primaryputih);
   margin-top: 0.5rem;
+}
+
+.copyyy{
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+}
+
+.ik{
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
 
 
