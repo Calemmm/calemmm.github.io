@@ -1,5 +1,12 @@
 @media (max-width: 1000px) {
 
+  #search{
+    display: none;
+  }
+  #shopcard{
+    display: none;
+  }
+
 
 
     .hero{
