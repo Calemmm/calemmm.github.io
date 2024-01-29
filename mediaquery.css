@@ -187,7 +187,18 @@
 
     /*menumatematika*/
     .me1{
-      padding: 1rem 7rem;
+      padding: 1rem 5rem;
+    }
+
+
+
+    /*experiance*/
+    .semuaisi{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      align-items: center;
     }
 
 
