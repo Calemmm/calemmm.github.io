@@ -9,6 +9,7 @@
   --primaryabu: #dadada;
   --primarybluedark: rgb(10, 62, 76);
   --primarydarkbet:rgb(23, 25, 26);
+  --primaryblue1: rgb(43, 132, 157);
 
 }
 
@@ -20,6 +21,7 @@
   border: none;
   text-decoration: none;
 }
+
 
 body {
   font-family: "Poppins", sans-serif;
@@ -111,10 +113,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('./assets/cccbckg.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  background-image: url('./assets/svgsvg.svg');
 }
 .hero::after{
   content: '';
@@ -169,7 +168,7 @@ body {
 
 .cta:hover{
   cursor: pointer;
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
 }
 
 
@@ -206,7 +205,7 @@ body {
 }
 
 .menu1:hover{
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
   cursor: pointer;
 
 }
@@ -226,7 +225,7 @@ body {
   text-align: center;
 }
 .menu2:hover{
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
   cursor: pointer;
 
 }
@@ -246,7 +245,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
 .menu3:hover{
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
   cursor: pointer;
 
 }
@@ -266,7 +265,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
 .menu4:hover{
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
   cursor: pointer;
 
 }
@@ -287,7 +286,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
 }
 .menu5:hover{
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
   cursor: pointer;
 
 }
@@ -321,7 +320,7 @@ body {
 }
 
 .hubungijasa{
-  background-color: var(--bg);
+  background-color: black;
   padding: 1rem 3rem;
   color: var(--primaryputih);
   border-radius: 15px;
@@ -329,8 +328,7 @@ body {
 
 .hubungijasa:hover{
   cursor: pointer;
-  background-color: var(--primaryputih);
-  color: var(--primaryblue);
+  background-color: rgb(6, 6, 6);
 }
 
 .h1ep{
@@ -554,16 +552,20 @@ body {
 
 .kk:hover{
   cursor: pointer;
-  background-color: var(--primaryputih);
-  color: var(--primaryblue);
+  background-color: rgb(6, 6, 6);
 }
 
 
 #tentang{
   color: var(--primaryputih);
+
 }
 
 /*secttentangku*/
+
+.tentangku{
+  background-image: url('./assets/svgsvg.svg');
+}
 .tentangku div img{
   width: 400px;
 }
@@ -599,7 +601,7 @@ body {
 }
 .bb:hover{
   cursor: pointer;
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
 }
 
 
@@ -734,7 +736,7 @@ body {
 }
 
 .me1:hover{
-  background-color: var(--primaryhijau);
+  background-color: var(--primaryblue1);
   cursor: pointer;
 }
 
