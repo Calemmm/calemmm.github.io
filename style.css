@@ -10,8 +10,25 @@
   --primarybluedark: rgb(10, 62, 76);
   --primarydarkbet:rgb(23, 25, 26);
   --primaryblue1: rgb(43, 132, 157);
+  --prymaryabubet: #424747;
 
 }
+
+
+.p2023{
+  color: var(--bg);
+  margin: 5%;
+}
+
+.per{
+  margin: 5%;
+}
+
+.h2w{
+  color: var(--bg);
+  margin: 5%;
+}
+
 
 * {
   margin: 0;
@@ -109,11 +126,28 @@ body {
   width: 400px;
 }
 
-.hero{
+@keyframes wahyu {
+  100%{
+      background-position: 25% 70%;
+  }
+}
+
+.hero-salah{
   min-height: 100vh;
   display: flex;
   align-items: center;
   background-image: url('./assets/svgsvg.svg');
+}
+
+.hero{
+  background-image: url('./assets/svgsvg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: wahyu 3s infinite alternate ease;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .hero::after{
   content: '';
@@ -176,119 +210,27 @@ body {
 /*section2*/
 
 .sect2{
-  padding: 5rem 7% 1.4rem;
+  background-image: url(./assets/svgsvg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: wahyu 3s infinite alternate ease;
+  padding: 1rem;
+  border-top: 0.5rem solid var(--primaryblue);
 }
+
+
 
 .tersedia{
   text-align: center;
   font-size: 2rem;
 }
 
+
 .menuku{
-  display: grid;
-}
-
-
-
-.menu1{
-  margin: 1rem 10%;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #ffffff;
-  background-color: var(--primaryblue);
-  border-radius: 1rem;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
-  text-align: center;
-}
-
-.menu1:hover{
-  background-color: var(--primaryblue1);
-  cursor: pointer;
-
-}
-
-
-.menu2{
-  margin: 1rem 10%;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #ffffff;
-  background-color: var(--primaryblue);
-  border-radius: 1rem;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
-  text-align: center;
-}
-.menu2:hover{
-  background-color: var(--primaryblue1);
-  cursor: pointer;
-
-}
-
-
-.menu3{
-  text-align: center;
-  margin: 1rem 10%;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #ffffff;
-  background-color: var(--primaryblue);
-  border-radius: 1rem;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
-}
-.menu3:hover{
-  background-color: var(--primaryblue1);
-  cursor: pointer;
-
-}
-
-
-.menu4{
-  text-align: center;
-  margin: 1rem 10%;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #ffffff;
-  background-color: var(--primaryblue);
-  border-radius: 1rem;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
-}
-.menu4:hover{
-  background-color: var(--primaryblue1);
-  cursor: pointer;
-
-}
-
-
-.menu5{
-  text-align: center;
-  margin: 1rem 10%;
-  margin-bottom: 4rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #ffffff;
-  background-color: var(--primaryblue);
-  border-radius: 1rem;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
-}
-.menu5:hover{
-  background-color: var(--primaryblue1);
-  cursor: pointer;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem;
 }
 
 
@@ -298,8 +240,11 @@ body {
 
 /*sectexperience*/
 .exper{
-  background-color: var(--primaryblue);
+  background-color: var(--prymaryabubet);
   margin-bottom: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 25px;
 }
 
 .jasa{
@@ -489,11 +434,15 @@ body {
 .about{
   padding: 5rem 7% 1.4rem;
   margin-bottom: 4rem;
-  background-color: var(--primaryblue);
+  background-color: var(--prymaryabubet);
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 25px;
 }
 
 .row{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
@@ -501,6 +450,9 @@ body {
 
 .imgimg img{
   width: 300px;
+  background-color: var(--primaryblue);
+  padding: 1rem;
+  border-radius: 15px;
 }
 
 
@@ -538,6 +490,11 @@ body {
   margin-top: 1rem;
 }
 
+.per a{
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+}
+
+
 .kk{
   text-align: center;
   display: inline-block;
@@ -563,8 +520,16 @@ body {
 
 /*secttentangku*/
 
+.tentangku-salah{
+  background-image: url('./assets/svgsvg.svg');
+}
 .tentangku{
   background-image: url('./assets/svgsvg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: wahyu 3s infinite alternate ease;
+  min-height: 100vh;
 }
 .tentangku div img{
   width: 400px;
@@ -607,7 +572,7 @@ body {
 
 /*sect4*/
 .footerrr{
-  background-color: var(--primaryblue);
+  background-color: var(--prymaryabubet);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -627,6 +592,9 @@ body {
 }
 .logokuuu img{
   width: 200px;
+  background-color: var(--primaryblue);
+  padding: 1rem;
+  border-radius: 15px;
 }
 
 .sosialku a{
@@ -772,6 +740,53 @@ body {
 /*menuhtml*/
 .mh1 span{
   color: var(--primaryblue);
+}
+
+
+
+
+
+
+
+
+.menuicon a img{
+  width: 150px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.708);
+}
+
+.menuicon{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--primaryputih);
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+
+.menuicon h1{
+  background-color: var(--primaryblue);
+  padding: 0.5rem 2rem;
+  border-radius: 15px;
+}
+
+.kotak{
+  background-color: var(--primaryputih);
+  border-radius: 25px;
+}
+
+.ket{
+  background-color: var(--primaryblue);
+  padding: 0.5rem 2rem;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--primaryputih);
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
 }
 
 

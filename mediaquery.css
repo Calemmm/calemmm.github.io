@@ -11,8 +11,10 @@
     --primaryabu: #dadada;
     --primarybluedark: rgb(10, 62, 76);
     --primarydarkbet:rgb(23, 25, 26);
+    --prymaryabubet: #424747;
   
   }
+
 
   #search{
     display: none;
@@ -20,6 +22,9 @@
   #shopcard{
     display: none;
   }
+
+
+
 
 
 
@@ -37,7 +42,7 @@
       position: absolute;
       top: 100%;
       right: -100%;
-      background-color: #fff;
+      background-color: #ffffffe4;
       width: 15rem;
       height: 100vh;
       transition: 0.3s;
@@ -61,7 +66,7 @@
     }
 
     .kami{
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     .row{
@@ -79,6 +84,10 @@
     .productu{
       padding-top: 0.5rem;
       font-size: 1rem;
+    }
+
+    .p11{
+      font-size: 0.8rem;
     }
 
     .rp{
@@ -104,6 +113,13 @@
       margin: 0.2rem 7% 1.4rem;
     }
 
+    .h33{
+      font-size: 1.5rem;
+    }
+
+
+
+
 
 
     /*sect4*/
@@ -112,7 +128,7 @@
     }
 
     .footerrr{
-      background-color: var(--primaryblue);
+      background-color: var(--prymaryabubet);
      
       display: flex;
       flex-direction: column;
@@ -141,7 +157,17 @@
     }
 
     .tentangku div img{
-      width: 300px;
+      width: 200px;
+    }
+
+    .h2d h2{
+      font-size: 2rem;
+    }
+    .h2w{
+      font-size: 70%;
+    }
+    .p2023{
+      font-size: 70%;
     }
 
 
@@ -200,6 +226,38 @@
       
       align-items: center;
     }
+
+    .menuku{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .menuku a img{
+      width: 50px;
+    }
+
+    .menuicon{
+      gap: 0.8rem;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--primaryputih);
+      padding: 0.5rem;
+      border-radius: 10px;
+    }
+
+    .ket{
+      background-color: var(--primaryblue);
+      padding: 0.25rem 1rem;
+      border-radius: 15px;
+      font-size: 0.5rem;
+      text-decoration: none;
+      color: var(--primaryputih);
+      font-weight: 400;
+    }
+
 
 
   
